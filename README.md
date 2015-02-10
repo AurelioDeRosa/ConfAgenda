@@ -61,22 +61,22 @@ The following instructions detail the process:
 4. Install [Bower](http://bower.io/#install-bower)
 
 5. Clone the ConfAgenda repository
-```sh
-$ git clone https://github.com/AurelioDeRosa/ConfAgenda.git
-```
+   ```sh
+   $ git clone https://github.com/AurelioDeRosa/ConfAgenda.git
+   ```
 
 6. Install the project's dependencies
-```sh
-$ npm install
-$ bower install
-```
+   ```sh
+   $ npm install
+   $ bower install
+   ```
 
-6. Serve the web application and monitor the source files for changes. The most important one is [`database.json`](#database-structure) that contains the data of the conference
-```sh
-$ grunt serve
-```
+7. Serve the web application and monitor the source files for changes. The most important one is [`database.json`](#database-structure) that contains the data of the conference
+   ```sh
+   $ grunt serve
+   ```
 
-7. If a browser window or tab is not automatically opened, open a new one  by yourself accessing the URL [http://localhost:9000](http://localhost:8000) to view the application
+8. If a browser window or tab is not automatically opened, open a new one  by yourself accessing the URL [http://localhost:9000](http://localhost:8000) to view the application
 
 ### Database structure
 
