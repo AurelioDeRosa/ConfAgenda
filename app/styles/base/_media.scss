@@ -1,0 +1,14 @@
+img,
+audio,
+video
+{
+   border: none;
+   max-width: 100%;
+}
+
+figure > img,
+figure > video,
+figure > audio,
+{
+   display: block;
+}

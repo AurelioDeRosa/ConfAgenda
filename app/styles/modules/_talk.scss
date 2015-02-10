@@ -1,0 +1,86 @@
+.talk
+{
+   @extend %clearfix;
+
+   &__time,
+   &__info
+   {
+      padding: 0.2em;
+
+      @include respond-to(40em)
+      {
+         padding: 0;
+      }
+   }
+
+   &__time
+   {
+      background-color: $cinnebar;
+      color: $white;
+
+      @include respond-to(40em)
+      {
+         background-color: inherit;
+         color: inherit;
+         float: left;
+         margin-right: 0.5em;
+      }
+   }
+
+   &__info
+   {
+      overflow: hidden;
+      @extend %clearfix;
+   }
+
+   &__title
+   {
+      margin-top: 0;
+      line-height: 1;
+   }
+
+   &__speaker
+   {
+      margin: 0;
+
+      @include respond-to(40em)
+      {
+         float: left;
+      }
+   }
+
+   &__language
+   {
+      @include inline-block;
+      margin-top: 0.5em;
+      font-style: italic;
+
+      @include respond-to(40em)
+      {
+         display: inline;
+         float: right;
+         margin-top: 0;
+         margin-right: 3em;
+      }
+   }
+
+   &__star
+   {
+      border: none;
+      background-color: transparent;
+      @include size(1.3em, 1em);
+      @extend %float-right;
+      margin: 0.5em 0.5em 0 0;
+      padding: 0;
+
+      @include respond-to(40em)
+      {
+         margin: 0 1em 0.5em 0;
+      }
+
+      &--active
+      {
+         color: $gold;
+      }
+   }
+}

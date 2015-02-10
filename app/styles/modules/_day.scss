@@ -1,0 +1,12 @@
+.days
+{
+   @extend %list-reset;
+}
+
+.day
+{
+   &__tracks
+   {
+      @extend %list-reset;
+   }
+}

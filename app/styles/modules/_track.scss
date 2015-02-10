@@ -1,0 +1,23 @@
+.track
+{
+   &__name
+   {
+      margin-top: 0;
+   }
+
+   &__talks
+   {
+      @extend %list-reset;
+      @extend %clearfix;
+
+      & > *
+      {
+         padding-bottom: 0.5em;
+      }
+
+      & > *:nth-child(2n)
+      {
+         background: $grey;
+      }
+   }
+}

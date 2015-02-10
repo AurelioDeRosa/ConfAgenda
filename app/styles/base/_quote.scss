@@ -1,0 +1,21 @@
+blockquote
+{
+   margin-left: 0;
+   margin-right: 0;
+   padding-bottom: 0.5em;
+
+   p
+   {
+      font-style: italic;
+
+      &:before
+      {
+         content: "\201C";
+      }
+
+      &:after
+      {
+         content: "\201D";
+      }
+   }
+}

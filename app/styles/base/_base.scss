@@ -1,0 +1,38 @@
+html
+{
+   position: relative;
+   min-height: 100%;
+}
+
+body
+{
+   background-color: $white;
+   color: $black;
+   font-family: $fontFamilyBase;
+   font-size: $fontSizeBase;
+   margin: 0 0 60px 0;
+}
+
+a,
+button
+{
+   touch-action: manipulation;
+   -webkit-tap-highlight-color: transparent;
+}
+
+a
+{
+   color: $ming;
+}
+
+a:visited
+{
+   color: $redwood;
+}
+
+a:hover,
+a:focus,
+a:active
+{
+   color: $christine;
+}

@@ -1,0 +1,70 @@
+.main-menu
+{
+   position: absolute;
+   bottom: 0;
+   height: 60px;
+   width: 100%;
+   overflow: hidden;
+   background-color: $ming;
+
+   > ul
+   {
+      @extend %list-reset;
+      @extend %clearfix;
+      height: 100%;
+   }
+
+   li
+   {
+      width: 33.333%;
+      height: 100%;
+      @include inline-block;
+      @extend %float-left;
+      @extend %align-center;
+   }
+
+   &__link
+   {
+      text-decoration: none;
+      display: block;
+      padding: 1em;
+      background-color: $ming;
+      color: $black;
+      @extend %align-vertical;
+
+      &:visited
+      {
+         color: inherit;
+      }
+
+      &:hover,
+      &:focus,
+      &:active,
+      &.active,
+      {
+         background-color: $christine;
+         color: $black;
+      }
+
+      & i
+      {
+         font-size: 1.5em;
+      }
+
+      & span
+      {
+         @include respond-to(0, 30em)
+         {
+            @include visually-hidden($extend: false);
+         }
+      }
+
+      @include respond-to(30em)
+      {
+         & i
+         {
+            display: none;
+         }
+      }
+   }
+}

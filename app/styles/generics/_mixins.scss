@@ -1,0 +1,66 @@
+@mixin respond-to($minWidth, $maxWidth: "") {
+   @if $maxWidth != ""
+   {
+      @media only screen and (min-width: $minWidth) and (max-width: $maxWidth) {
+         @content;
+      }
+   } @else
+   {
+      @media only screen and (min-width: $minWidth) {
+         @content;
+      }
+   }
+}
+
+@mixin hidden($extend: false) {
+   @if $extend {
+      @extend %hidden;
+   } @else {
+      display: none;
+   }
+}
+
+@mixin visually-hidden($extend: false) {
+   @if $extend {
+      @extend %visually-hidden;
+   } @else {
+      position: absolute;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      width: 1px;
+      margin: -1px;
+      padding: 0;
+      border: 0;
+   }
+}
+
+@mixin size($width, $height: $width) {
+   width: $width;
+   height: $height;
+}
+
+@mixin hover-focus-link($outlineColor: null) {
+   &:hover,
+   &:focus
+   {
+      text-decoration: underline;
+   }
+
+   @if $outlineColor != null
+   {
+      &:focus
+      {
+         outline: 1px solid $outlineColor;
+      }
+   }
+}
+
+@mixin inline-block($alignment: null) {
+   display: inline-block;
+
+   @if $alignment != null
+   {
+      vertical-align: $alignment;
+   }
+}

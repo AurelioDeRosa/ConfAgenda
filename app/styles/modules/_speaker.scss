@@ -1,0 +1,20 @@
+.speaker
+{
+   @extend %align-center;
+
+   &__name
+   {
+      margin: 0 0 0.2em;
+   }
+
+   &__twitter,
+   &__website
+   {
+      display: block;
+   }
+
+   &__bio
+   {
+      text-align: left;
+   }
+}

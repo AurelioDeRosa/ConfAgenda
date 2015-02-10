@@ -1,0 +1,17 @@
+dt,
+dd
+{
+   display: inline;
+   margin: 0;
+}
+
+dt:after
+{
+   content: ': ';
+}
+
+dd:after
+{
+   content: ' \A';
+   white-space: pre;
+}

@@ -1,0 +1,11 @@
+%hidden,
+.hidden
+{
+   @include hidden($extend: false);
+}
+
+%visually-hidden,
+.visually-hidden
+{
+   @include visually-hidden($extend: false);
+}

@@ -1,0 +1,18 @@
+{
+  "name": "confagenda",
+  "homepage": "https://github.com/AurelioDeRosa/ConfAgenda",
+  "version": "0.1.0",
+  "author": {
+    "name": "Aurelio De Rosa",
+    "email": "a.derosa@audero.it",
+    "web": "http://www.audero.it"
+  },
+  "description": "Confagenda is a fast and small web application built to allow conferences attendees to easily navigate through the conference information and mark the talks of interest to create their own, personalized track.",
+  "private": true,
+  "dependencies": {
+    "modernizr": "~2.8.2",
+    "normalize-scss": "~3.0.2",
+    "swiper": "~2.7.5"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,21 @@
+.about
+{
+   @extend %island--block;
+   @extend %align-center;
+
+   &__name
+   {
+      margin-bottom: 0.5em;
+   }
+
+   &__logo
+   {
+      @extend %align-horizontal;
+      margin-bottom: 0.5em;
+   }
+
+   &__website
+   {
+      display: block;
+   }
+}

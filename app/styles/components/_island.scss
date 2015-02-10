@@ -1,0 +1,42 @@
+%island,
+.island,
+%islet,
+.islet,
+{
+   display: block;
+   @extend %clearfix;
+
+   & > :first-child
+   {
+      margin-top: 0;
+   }
+
+   & > :last-child
+   {
+      margin-bottom: 0;
+   }
+
+   &--block
+   {
+      max-width: $maxLayoutWidth;
+      margin: 0 auto;
+   }
+}
+
+%island,
+.island
+{
+   &--block
+   {
+      padding: 1em;
+   }
+}
+
+%islet,
+.islet
+{
+   &--block
+   {
+      padding: 0.5em;
+   }
+}

@@ -1,0 +1,344 @@
+{
+   "conference": {
+      "02/06/2015": {
+         "Track 1": [
+            {
+               "title": "This is test title 1",
+               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+               "speaker": [
+                  {
+                     "name": "Aurelio De Rosa clone 1",
+                     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+                     "avatar": "http://www.gravatar.com/avatar/8b01a8b4d7a0a9079a4e97b1ddedbe56",
+                     "twitter": "AurelioDeRosa1",
+                     "website": "http://www.audero.it"
+                  }
+               ],
+               "startTime": "09:00",
+               "endTime": "09:45",
+               "language": "English"
+            },
+            {
+               "title": "This is test title 2",
+               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+               "speaker": [
+                  {
+                     "name": "Aurelio De Rosa clone 2",
+                     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+                     "avatar": "http://www.gravatar.com/avatar/8b01a8b4d7a0a9079a4e97b1ddedbe56",
+                     "twitter": "AurelioDeRosa2",
+                     "website": "http://www.audero.it"
+                  }
+               ],
+               "startTime": "09:45",
+               "endTime": "10:30",
+               "language": "English"
+            },
+            {
+               "title": "This is test title 3",
+               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+               "speaker": [
+                  {
+                     "name": "Aurelio De Rosa clone 3",
+                     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+                     "avatar": "http://www.gravatar.com/avatar/8b01a8b4d7a0a9079a4e97b1ddedbe56",
+                     "twitter": "AurelioDeRosa3",
+                     "website": "http://www.audero.it"
+                  }
+               ],
+               "startTime": "10:30",
+               "endTime": "11:15",
+               "language": "English"
+            },
+            {
+               "title": "This is test title 4",
+               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+               "speaker": [
+                  {
+                     "name": "Aurelio De Rosa clone 4",
+                     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+                     "avatar": "http://www.gravatar.com/avatar/8b01a8b4d7a0a9079a4e97b1ddedbe56",
+                     "twitter": "AurelioDeRosa4",
+                     "website": "http://www.audero.it"
+                  }
+               ],
+               "startTime": "11:15",
+               "endTime": "12:00",
+               "language": "English"
+            },
+            {
+               "title": "This is test title 5",
+               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+               "speaker": [
+                  {
+                     "name": "Aurelio De Rosa clone 5",
+                     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+                     "avatar": "http://www.gravatar.com/avatar/8b01a8b4d7a0a9079a4e97b1ddedbe56",
+                     "twitter": "AurelioDeRosa5",
+                     "website": "http://www.audero.it"
+                  }
+               ],
+               "startTime": "12:00",
+               "endTime": "12:45",
+               "language": "English"
+            }
+         ],
+         "Track 2": [
+            {
+               "title": "This is test title 6",
+               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+               "speaker": [
+                  {
+                     "name": "Aurelio De Rosa clone 6",
+                     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+                     "avatar": "http://www.gravatar.com/avatar/8b01a8b4d7a0a9079a4e97b1ddedbe56",
+                     "twitter": "AurelioDeRosa6",
+                     "website": "http://www.audero.it"
+                  }
+               ],
+               "startTime": "09:00",
+               "endTime": "09:45",
+               "language": "English"
+            },
+            {
+               "title": "This is test title 7",
+               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+               "speaker": [
+                  {
+                     "name": "Aurelio De Rosa clone 7",
+                     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+                     "avatar": "http://www.gravatar.com/avatar/8b01a8b4d7a0a9079a4e97b1ddedbe56",
+                     "twitter": "AurelioDeRosa7",
+                     "website": "http://www.audero.it"
+                  }
+               ],
+               "startTime": "09:45",
+               "endTime": "10:30",
+               "language": "English"
+            },
+            {
+               "title": "This is test title 8",
+               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+               "speaker": [
+                  {
+                     "name": "Aurelio De Rosa clone 8",
+                     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+                     "avatar": "http://www.gravatar.com/avatar/8b01a8b4d7a0a9079a4e97b1ddedbe56",
+                     "twitter": "AurelioDeRosa8",
+                     "website": "http://www.audero.it"
+                  }
+               ],
+               "startTime": "10:30",
+               "endTime": "11:15",
+               "language": "English"
+            },
+            {
+               "title": "This is test title 9",
+               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+               "speaker": [
+                  {
+                     "name": "Aurelio De Rosa clone 9",
+                     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+                     "avatar": "http://www.gravatar.com/avatar/8b01a8b4d7a0a9079a4e97b1ddedbe56",
+                     "twitter": "AurelioDeRosa9",
+                     "website": "http://www.audero.it"
+                  }
+               ],
+               "startTime": "11:15",
+               "endTime": "12:00",
+               "language": "English"
+            },
+            {
+               "title": "This is test title 10",
+               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+               "speaker": [
+                  {
+                     "name": "Aurelio De Rosa clone 10",
+                     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+                     "avatar": "http://www.gravatar.com/avatar/8b01a8b4d7a0a9079a4e97b1ddedbe56",
+                     "twitter": "AurelioDeRosa10",
+                     "website": "http://www.audero.it"
+                  }
+               ],
+               "startTime": "12:00",
+               "endTime": "12:45",
+               "language": "English"
+            }
+         ]
+      },
+      "02/07/2015": {
+         "Track 1": [
+            {
+               "title": "This is test title 11",
+               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+               "speaker": [
+                  {
+                     "name": "Aurelio De Rosa clone 11",
+                     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+                     "avatar": "http://www.gravatar.com/avatar/8b01a8b4d7a0a9079a4e97b1ddedbe56",
+                     "twitter": "AurelioDeRosa11",
+                     "website": "http://www.audero.it"
+                  }
+               ],
+               "startTime": "09:00",
+               "endTime": "09:45",
+               "language": "English"
+            },
+            {
+               "title": "This is test title 12",
+               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+               "speaker": [
+                  {
+                     "name": "Aurelio De Rosa clone 12",
+                     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+                     "avatar": "http://www.gravatar.com/avatar/8b01a8b4d7a0a9079a4e97b1ddedbe56",
+                     "twitter": "AurelioDeRosa12",
+                     "website": "http://www.audero.it"
+                  }
+               ],
+               "startTime": "09:45",
+               "endTime": "10:30",
+               "language": "English"
+            },
+            {
+               "title": "This is test title 13",
+               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+               "speaker": [
+                  {
+                     "name": "Aurelio De Rosa clone 13",
+                     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+                     "avatar": "http://www.gravatar.com/avatar/8b01a8b4d7a0a9079a4e97b1ddedbe56",
+                     "twitter": "AurelioDeRosa13",
+                     "website": "http://www.audero.it"
+                  }
+               ],
+               "startTime": "10:30",
+               "endTime": "11:15",
+               "language": "English"
+            },
+            {
+               "title": "This is test title 14",
+               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+               "speaker": [
+                  {
+                     "name": "Aurelio De Rosa clone 14",
+                     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+                     "avatar": "http://www.gravatar.com/avatar/8b01a8b4d7a0a9079a4e97b1ddedbe56",
+                     "twitter": "AurelioDeRosa14",
+                     "website": "http://www.audero.it"
+                  }
+               ],
+               "startTime": "11:15",
+               "endTime": "12:00",
+               "language": "English"
+            },
+            {
+               "title": "This is test title 15",
+               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+               "speaker": [
+                  {
+                     "name": "Aurelio De Rosa clone 15",
+                     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+                     "avatar": "http://www.gravatar.com/avatar/8b01a8b4d7a0a9079a4e97b1ddedbe56",
+                     "twitter": "AurelioDeRosa15",
+                     "website": "http://www.audero.it"
+                  }
+               ],
+               "startTime": "12:00",
+               "endTime": "12:45",
+               "language": "English"
+            }
+         ],
+         "Track 2": [
+            {
+               "title": "This is test title 16",
+               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+               "speaker": [
+                  {
+                     "name": "Aurelio De Rosa clone 16",
+                     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+                     "avatar": "http://www.gravatar.com/avatar/8b01a8b4d7a0a9079a4e97b1ddedbe56",
+                     "twitter": "AurelioDeRosa16",
+                     "website": "http://www.audero.it"
+                  }
+               ],
+               "startTime": "09:00",
+               "endTime": "09:45",
+               "language": "English"
+            },
+            {
+               "title": "This is test title 17",
+               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+               "speaker": [
+                  {
+                     "name": "Aurelio De Rosa clone 17",
+                     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+                     "avatar": "http://www.gravatar.com/avatar/8b01a8b4d7a0a9079a4e97b1ddedbe56",
+                     "twitter": "AurelioDeRosa17",
+                     "website": "http://www.audero.it"
+                  }
+               ],
+               "startTime": "09:45",
+               "endTime": "10:30",
+               "language": "English"
+            },
+            {
+               "title": "This is test title 18",
+               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+               "speaker": [
+                  {
+                     "name": "Aurelio De Rosa clone 18",
+                     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+                     "avatar": "http://www.gravatar.com/avatar/8b01a8b4d7a0a9079a4e97b1ddedbe56",
+                     "twitter": "AurelioDeRosa18",
+                     "website": "http://www.audero.it"
+                  }
+               ],
+               "startTime": "10:30",
+               "endTime": "11:15",
+               "language": "English"
+            },
+            {
+               "title": "This is test title 19",
+               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+               "speaker": [
+                  {
+                     "name": "Aurelio De Rosa clone 19",
+                     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+                     "avatar": "http://www.gravatar.com/avatar/8b01a8b4d7a0a9079a4e97b1ddedbe56",
+                     "twitter": "AurelioDeRosa19",
+                     "website": "http://www.audero.it"
+                  }
+               ],
+               "startTime": "11:15",
+               "endTime": "12:00",
+               "language": "English"
+            },
+            {
+               "title": "This is test title 20",
+               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+               "speaker": [
+                  {
+                     "name": "Aurelio De Rosa clone 20",
+                     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae sollicitudin nibh. Mauris in blandit eros, sit amet feugiat eros. Praesent placerat ante eget pharetra molestie. Nulla facilisi. Aliquam vel suscipit massa, non maximus purus. Nunc mauris turpis, imperdiet vel orci bibendum, dignissim aliquam erat. Fusce id consequat risus. Phasellus urna turpis, lacinia placerat mi eu, vulputate sagittis velit.",
+                     "avatar": "http://www.gravatar.com/avatar/8b01a8b4d7a0a9079a4e97b1ddedbe56",
+                     "twitter": "AurelioDeRosa20",
+                     "website": "http://www.audero.it"
+                  }
+               ],
+               "startTime": "12:00",
+               "endTime": "12:45",
+               "language": "English"
+            }
+         ]
+      }
+   },
+   "about": {
+      "name": "Conference Name",
+      "logoUrl": "http://audero.it/img/logo-audero.png",
+      "location": "London, UK",
+      "date": "06 February 2015",
+      "twitter": "ConferenceName",
+      "website": "http://www.conference.com"
+   }
+}
