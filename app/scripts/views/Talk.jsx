@@ -25,6 +25,9 @@ var Talk = React.createClass({
    componentWillReceiveProps: function() {
       this.setState({isStarred: MyTrack.exists(this.props.title)});
    },
+   shouldComponentUpdate: function(nextProps, nextState) {
+      return nextState.isStarred !== this.state.isStarred;
+   },
 
    clickHandler: function() {
       this.setState({
