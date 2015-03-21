@@ -387,8 +387,7 @@ module.exports = function (grunt) {
          dist: {
             options: {
                basePath: '<%= config.dist %>/',
-               verbose: false,
-               timestamp: false
+               verbose: false
             },
             src: [
                '*.html',
