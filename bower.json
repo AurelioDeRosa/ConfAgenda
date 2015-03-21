@@ -10,9 +10,9 @@
   "description": "Confagenda is a fast and small web application built to allow conferences attendees to easily navigate through the conference information and mark the talks of interest to create their own, personalized track.",
   "private": true,
   "dependencies": {
-    "modernizr": "~2.8.2",
+    "modernizr": "~2.8.3",
     "normalize-scss": "~3.0.2",
-    "swiper": "~2.7.5"
+    "swiper": "~2.7.6"
   },
   "devDependencies": {}
 }

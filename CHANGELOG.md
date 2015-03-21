@@ -1,6 +1,7 @@
 # 0.2.0 #
 
 * Improved rendering performance by re-rendering only the necessary components ([#2][])
+* Dependencies updated
 
 [#2]: https://github.com/AurelioDeRosa/ConfAgenda/issues/2
 
