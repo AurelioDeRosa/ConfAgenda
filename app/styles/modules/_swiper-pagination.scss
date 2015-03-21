@@ -1,21 +1,20 @@
-.pagination
+.swiper-pagination
 {
    position: absolute;
-   left: 0;
    @extend %align-center;
-   bottom: 5px;
+   left: 0;
+   bottom: 0;
    width: 100%;
 }
 
 .swiper-pagination-switch
 {
    display: inline-block;
-   width: 10px;
-   height: 10px;
-   border-radius: 10px;
+   @include size(12px);
+   border-radius: 50%;
    background: #999999;
    box-shadow: 0px 1px 2px #555555 inset;
-   margin: 0 3px;
+   margin-right: 10px;
    cursor: pointer;
 }
 
