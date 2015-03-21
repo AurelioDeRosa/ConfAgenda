@@ -14,7 +14,7 @@ var DateSelect = React.createClass({
    },
 
    changeHandler: function() {
-      this.props.onChange(this.refs['day-select'].getDOMNode().value);
+      this.props.onChange(React.findDOMNode(this.refs['day-select']).value);
    },
 
    render: function () {

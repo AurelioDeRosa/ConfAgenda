@@ -1,4 +1,5 @@
-var React = require('react/addons');
+var React = require('react');
+var classNames = require('classNames');
 var Link = require('react-router').Link;
 var MyTrack = require('../MyTrack.js');
 var Speaker = require('./Speaker.jsx');
@@ -39,8 +40,7 @@ var Talk = React.createClass({
    },
 
    render: function() {
-      var starClasses = React.addons.classSet({
-         talk__star: true,
+      var starClasses = classNames('talk__star', {
          'icon--star-empty': !this.state.isStarred,
          'talk__star--active': this.state.isStarred,
          'icon--star': this.state.isStarred

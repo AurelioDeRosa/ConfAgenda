@@ -20,7 +20,7 @@ var Day = React.createClass({
    },
 
    componentDidMount: function() {
-      var root = this.getDOMNode();
+      var root = React.findDOMNode(this);
       new Swiper(root, {
          mode: 'horizontal',
          calculateHeight: true,

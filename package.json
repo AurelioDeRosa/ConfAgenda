@@ -12,6 +12,7 @@
   "devDependencies": {
     "JSONSelect": "^0.4.0",
     "apache-server-configs": "^2.11.0",
+    "classnames": "^1.2.0",
     "es6-promise": "^2.0.1",
     "fastclick": "^1.0.6",
     "grunt": "^0.4.5",
@@ -40,8 +41,8 @@
     "grunt-wiredep": "^2.0.0",
     "jshint-stylish": "^1.0.1",
     "load-grunt-tasks": "^3.1.0",
-    "react": "^0.12.2",
-    "react-router": "^0.12.4",
+    "react": "^0.13.1",
+    "react-router": "^0.13.1",
     "swiper": "^2.7.6",
     "time-grunt": "^1.1.0"
   },
