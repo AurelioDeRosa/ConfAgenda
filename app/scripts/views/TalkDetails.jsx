@@ -1,10 +1,11 @@
 var React = require('react');
-var State = require('react-router').State;
 var Speaker = require('./Speaker.jsx');
 var Utility = require('../Utility.js');
 
 var TalkDetails = React.createClass({
-   mixins: [State],
+   contextTypes: {
+      router: React.PropTypes.func.isRequired
+   },
 
    getInitialState: function() {
       return {
@@ -18,7 +19,7 @@ var TalkDetails = React.createClass({
    },
 
    componentDidMount: function() {
-      var title = this.getParams().title;
+      var title = this.context.router.getCurrentParams().title;
       if (title) {
          Utility.searchTalk(title).then(function (data) {
             if (data !== null) {

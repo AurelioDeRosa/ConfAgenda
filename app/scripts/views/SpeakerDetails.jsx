@@ -1,9 +1,10 @@
 var React = require('react');
-var State = require('react-router').State;
 var Utility = require('../Utility.js');
 
 var SpeakerDetails = React.createClass({
-   mixins: [State],
+   contextTypes: {
+      router: React.PropTypes.func.isRequired
+   },
 
    getInitialState: function() {
       return {
@@ -16,7 +17,7 @@ var SpeakerDetails = React.createClass({
    },
 
    componentDidMount: function() {
-      var twitterHandle = this.getParams().twitter;
+      var twitterHandle = this.context.router.getCurrentParams().twitter;
       if (twitterHandle) {
          Utility.searchSpeaker(twitterHandle).then(function (data) {
             if (data !== null) {

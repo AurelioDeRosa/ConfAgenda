@@ -2,13 +2,15 @@
 
 * Improved rendering performance by re-rendering only the necessary components ([#2][])
 * Improved the interaction with the pager ([#3][])
-* Added a timestamp to the appcache file for better cache versioning ([#4][]) 
+* Added a timestamp to the appcache file for better cache versioning ([#4][])
+* Remove use of deprecated State mixin ([#5][])
 * Code updated to use React 0.13.x
 * Dependencies updated
 
 [#2]: https://github.com/AurelioDeRosa/ConfAgenda/issues/2
 [#3]: https://github.com/AurelioDeRosa/ConfAgenda/issues/3
 [#4]: https://github.com/AurelioDeRosa/ConfAgenda/issues/4
+[#5]: https://github.com/AurelioDeRosa/ConfAgenda/issues/5
 
 # 0.1.0 (2015-02-10) #
 
