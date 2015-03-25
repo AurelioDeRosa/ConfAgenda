@@ -61,7 +61,7 @@ var Talk = React.createClass({
             </div>
             <div className="talk__info">
                <h2 className="talk__title">
-                  <Link to="talk" params={{title: this.props.title}}>
+                  <Link to="talk" params={{title: encodeURIComponent(this.props.title)}}>
                      {this.props.title}
                   </Link>
                </h2>

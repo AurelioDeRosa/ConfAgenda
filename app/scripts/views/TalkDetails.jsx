@@ -4,7 +4,7 @@ var Utility = require('../Utility.js');
 
 var TalkDetails = React.createClass({
    contextTypes: {
-      router: React.PropTypes.func.isRequired
+      router: React.PropTypes.func
    },
 
    getInitialState: function() {
@@ -19,7 +19,7 @@ var TalkDetails = React.createClass({
    },
 
    componentDidMount: function() {
-      var title = this.context.router.getCurrentParams().title;
+      var title = decodeURIComponent(this.context.router.getCurrentParams().title);
       if (title) {
          Utility.searchTalk(title).then(function (data) {
             if (data !== null) {
