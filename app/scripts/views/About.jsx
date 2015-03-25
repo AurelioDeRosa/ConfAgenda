@@ -1,7 +1,10 @@
-var React = require('react');
+var React = require('react/addons');
+var PureRenderMixin = React.addons.PureRenderMixin;
 var Utility = require('../Utility.js');
 
 var About = React.createClass({
+   mixins: [PureRenderMixin],
+
    getInitialState: function() {
       return {
          name: '',

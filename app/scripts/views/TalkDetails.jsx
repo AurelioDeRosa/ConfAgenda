@@ -1,4 +1,5 @@
-var React = require('react');
+var React = require('react/addons');
+var PureRenderMixin = React.addons.PureRenderMixin;
 var Speaker = require('./Speaker.jsx');
 var Utility = require('../Utility.js');
 
@@ -6,6 +7,8 @@ var TalkDetails = React.createClass({
    contextTypes: {
       router: React.PropTypes.func
    },
+
+   mixins: [PureRenderMixin],
 
    getInitialState: function() {
       return {
