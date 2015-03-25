@@ -1,14 +1,19 @@
-var React = require('react');
+var React = require('react/addons');
+var PureRenderMixin = React.addons.PureRenderMixin;
 
 var DateSelect = React.createClass({
    propTypes: {
       dates: React.PropTypes.array.isRequired,
+      selectedDate: React.PropTypes.string.isRequired,
       onChange: React.PropTypes.func.isRequired
    },
+
+   mixins: [PureRenderMixin],
 
    getDefaultProps: function() {
       return {
          dates: [],
+         selectedDate: '',
          onChange: function() {}
       };
    },
@@ -21,7 +26,7 @@ var DateSelect = React.createClass({
       return (
          <div className="date-select">
             <label htmlFor="day-select">Select a date:</label>
-            <select id="day-select" ref="day-select" onChange={this.changeHandler}>
+            <select id="day-select" ref="day-select" onChange={this.changeHandler} value={this.props.selectedDate}>
                {this.props.dates.map(function(date, index) {
                   return <option value={date} key={index}>{new Date(date).toLocaleDateString()}</option>;
                })}

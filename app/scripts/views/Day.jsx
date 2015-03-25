@@ -7,6 +7,10 @@ var Track = require('./Track.jsx');
 React.initializeTouchEvents(true);
 
 var Day = React.createClass({
+   contextTypes: {
+      router: React.PropTypes.func
+   },
+
    propTypes: {
       date: React.PropTypes.string.isRequired,
       tracks: React.PropTypes.object.isRequired
@@ -21,13 +25,46 @@ var Day = React.createClass({
 
    componentDidMount: function() {
       var root = React.findDOMNode(this);
-      new Swiper(root, {
+      var tracksNames = Object.keys(this.props.tracks);
+      var selectedTrackIndex = tracksNames.indexOf(this.context.router.getCurrentParams().track);
+
+      if (selectedTrackIndex === -1) {
+         selectedTrackIndex = 0;
+      }
+
+      this.swiper = new Swiper(root, {
          mode: 'horizontal',
+         initialSlide: selectedTrackIndex,
          calculateHeight: true,
          keyboardControl: true,
          pagination: root.querySelector('.swiper-pagination'),
-         paginationClickable: true
+         paginationClickable: true,
+         onSlideChangeEnd: function(swiper) {
+            this.context.router.transitionTo('conference', {
+               date: Utility.dateStringToUrlDate(this.props.date),
+               track: encodeURIComponent(tracksNames[swiper.activeIndex])
+            });
+         }.bind(this)
       });
+   },
+
+   componentWillReceiveProps: function() {
+      var tracksNames = Object.keys(this.props.tracks);
+      var track = this.context.router.getCurrentParams().track;
+
+      if (track) {
+         var selectedTrackIndex = tracksNames.indexOf(track);
+
+         if (selectedTrackIndex === -1) {
+            this.context.router.replaceWith('conference', {
+               date: Utility.dateStringToUrlDate(this.props.date)
+            });
+         } else if(this.swiper.activeIndex !== selectedTrackIndex) {
+            this.swiper.swipeTo(selectedTrackIndex, 0);
+         }
+      } else {
+         this.swiper.swipeTo(0, 0);
+      }
    },
 
    changeHandler: function(talkTitle, isStarred) {
