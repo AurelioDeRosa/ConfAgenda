@@ -7,6 +7,7 @@
 * Push states in the browser history when changing day or track ([#6][])
 * Encode talk titles ([#7][])
 * Use the PureRenderMixin to improve performance ([#8][])
+* Push states in the browser history when changing day in "My Track" ([#9][])
 * Code updated to use React 0.13.x
 * Dependencies updated
 
@@ -17,6 +18,7 @@
 [#6]: https://github.com/AurelioDeRosa/ConfAgenda/issues/6
 [#7]: https://github.com/AurelioDeRosa/ConfAgenda/issues/7
 [#8]: https://github.com/AurelioDeRosa/ConfAgenda/issues/8
+[#9]: https://github.com/AurelioDeRosa/ConfAgenda/issues/9
 
 # 0.1.0 (2015-02-10) #
 

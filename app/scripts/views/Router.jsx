@@ -14,7 +14,7 @@ var Redirect = ReactRouter.Redirect;
 var routes = (
    <Route name="confagenda" path="/" handler={ConfAgenda}>
       <Route name="conference" path="/conference/:date?/?:track?" handler={Conference} />
-      <Route name="my-track" handler={MyTrack} />
+      <Route name="my-track" path="/my-track/:date?" handler={MyTrack} />
       <Route name="about" handler={About} />
 
       <Route name="speaker" path="speaker/:twitter" handler={SpeakerDetails} />
