@@ -133,14 +133,7 @@ function searchTalk(title) {
  * @returns {string}
  */
 function dateStringToUrlDate(date) {
-   if (date === '') {
-      return date;
-   }
-
-   date = date.split('/');
-   date[0] = (++date[0] < 10 ? '0' : '') + date[0];
-
-   return date.join('-');
+   return date === '' ? date : date.split('/').join('-');
 }
 
 /**
@@ -151,14 +144,7 @@ function dateStringToUrlDate(date) {
  * @returns {string}
  */
 function urlDateToDateString(date) {
-   if (date === '') {
-      return date;
-   }
-
-   date = date.split('-');
-   date[0] = (--date[0] < 10 ? '0' : '') + date[0];
-
-   return date.join('/');
+   return date === '' ? date : date.split('-').join('/');
 }
 
 var Utility = {
