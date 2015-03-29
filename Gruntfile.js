@@ -224,8 +224,9 @@ module.exports = function (grunt) {
                   '<%= config.dist %>/scripts/{,*/}*.js',
                   '<%= config.dist %>/styles/{,*/}*.css',
                   '<%= config.dist %>/images/{,*/}*.*',
-                  '<%= config.dist %>/styles/fonts/{,*/}*.*',
-                  '<%= config.dist %>/*.{ico,png}'
+                  '<%= config.dist %>/styles/fonts/{,*/}*.*'//,
+                  // Temporary commented while waiting for a grunt task that deals with favicons properly
+                  //'<%= config.dist %>/*.{ico,png}'
                ]
             }
          }

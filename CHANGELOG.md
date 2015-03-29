@@ -9,7 +9,8 @@
 * Use the PureRenderMixin to improve performance ([#8][])
 * Push states in the browser history when changing day in "My Track" ([#9][])
 * Added support for "Add to Homescreen" ([#1][])
-* Added all the icons to support Android, iOS, Windows 8, and so on. 
+* Added all the icons to support Android, iOS, Windows 8, and so on.
+* Disabled versioning of the images in the root while waiting for a grunt task that deals with favicons properly
 * Code updated to use React 0.13.x
 * Dependencies updated
 
