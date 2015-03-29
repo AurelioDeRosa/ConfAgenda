@@ -42,9 +42,11 @@ For the basic setup, follow the instructions below:
 
 3. Modify the [`database.json` file](#database-structure) contained in the `dist` folder to add the information about your conference (tracks, talks, general info, and so on)
 
-4. Open the `index.html` file contained in the `dist` folder in your browser of choice to check that everything is shown properly
+4. Modify the value of the `name` property defined in the `manifest.json` file, contained in the `dist` folder, with your conference's name
 
-5. Upload all the files contained in the `dist` folder to your web server
+5. Open the `index.html` file contained in the `dist` folder in your browser of choice to check that everything is shown properly
+
+6. Upload all the files contained in the `dist` folder to your web server
 
 ### Full setup
 
@@ -71,12 +73,14 @@ The following instructions detail the process:
    $ bower install
    ```
 
-7. Serve the web application and monitor the source files for changes. The most important one is [`database.json`](#database-structure) that contains the data of the conference
+7. Modify the value of the `name` property defined in the `manifest.json` file, contained in the `dist` folder, with your conference's name
+
+8. Serve the web application and monitor the source files for changes. The most important one is [`database.json`](#database-structure) that contains the data of the conference
    ```sh
    $ grunt serve
    ```
 
-8. If a browser window or tab is not automatically opened, open a new one  by yourself accessing the URL [http://localhost:9000](http://localhost:8000) to view the application
+9. If a browser window or tab is not automatically opened, open a new one  by yourself accessing the URL [http://localhost:9000](http://localhost:8000) to view the application
 
 ### Database structure
 
